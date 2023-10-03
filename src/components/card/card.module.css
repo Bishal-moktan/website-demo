@@ -1,0 +1,44 @@
+.container {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  background-color: var(--bg);
+}
+
+.header {
+  color: var(--colorPrimary);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.icon {
+  width: 7rem;
+  height: 7rem;
+}
+
+.icon > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn {
+  border: 1px solid var(--colorPrimary);
+  border-radius: 0.5rem;
+  width: max-content;
+  padding: 0.8rem;
+  cursor: pointer;
+  color: var(--colorPrimary);
+  transition: all 500ms ease;
+}
+
+.btn:hover {
+  background-color: var(--colorPrimary);
+  color: white;
+}
