@@ -11,8 +11,10 @@ const Intro = () => {
         <div className={styles.smallCircle}></div>
       </div>
       <div className={styles.information}>
-        <h2>Lorem ipsum</h2>
-        <p>Lorem ipsum dolor sit amet</p>
+        <div>
+          <h2>lorem ipsum</h2>
+          <p>Loreipsum@gmail.com</p>
+        </div>
       </div>
     </div>
   );

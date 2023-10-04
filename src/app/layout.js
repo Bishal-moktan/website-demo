@@ -1,7 +1,7 @@
 import './globals.css';
-import { Inter } from 'next/font/google';
+import { Raleway } from 'next/font/google';
 
-const inter = Inter({ subsets: ['latin'] });
+const raleway = Raleway({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'Website Demo',
@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`container ${inter.className}`}>
+      <body className={`container ${raleway.className}`}>
         <div className="wrapper">{children}</div>
       </body>
     </html>
