@@ -30,14 +30,14 @@ a {
 }
 
 .wrapper {
-  max-width: 95vw;
   margin: 0 auto;
-  padding: 0 80px;
+  padding: 0 5.625rem;
 }
 
 @media screen and (max-width: 1536px) {
   .wrapper {
     max-width: 1366px;
+    padding: 0;
   }
 }
 

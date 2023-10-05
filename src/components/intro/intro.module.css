@@ -4,8 +4,8 @@
 }
 
 .image {
-  height: 30vh;
-  width: 30vw;
+  height: 16.5rem;
+  width: 36.813rem;
 }
 
 .image > img {
@@ -23,11 +23,11 @@
 
 .information h2 {
   text-align: left;
-  font-size: 3rem;
+  font-size: 3.25rem;
 }
 
 .information p {
-  font-size: 1.3rem;
+  font-size: 1.563rem;
 }
 
 @media screen and (max-width: 640px) {
